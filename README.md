@@ -1,25 +1,9 @@
-Here is a clean, professional, **complete `README.md`** for your project, including:
-
-✅ Project Overview
-✅ Features
-✅ Tech Stack
-✅ Algorithm Explanation
-✅ Installation Guide
-✅ API Endpoints
-✅ Folder Structure
-✅ Team Members
-✅ Contribution Message
-
-You can copy–paste directly into your GitHub repository.
-If you want badges, screenshots, or a logo — I can add that too ✅
-
 ---
 
 # ✅ **README.md (Complete & Clean Version)**
 
 ```md
-# 🛒 AI-Powered Product Recommendation System
-
+# 🛒 AI-Powered Product Recommendation System  
 ### Built using **Next.js + Flask + DAA Algorithms**
 
 This project is an AI-enhanced product recommendation engine that helps users find the **best combination of products** within their budget and also provides **similar product suggestions** using graph algorithms.
@@ -106,28 +90,29 @@ Forms the simplest similarity graph connecting similar products.
 ---
 
 ## 📁 Folder Structure
+
 ```
 
 project/
 │── backend/
-│ ├── backend.py
-│ ├── products.py
-│ ├── requirements.txt
-│ └── README.md
+│   ├── backend.py
+│   ├── products.py
+│   ├── requirements.txt
+│   └── README.md
 │
 │── frontend/
-│ ├── src/
-│ │ ├── app/
-│ │ │ ├── page.js
-│ │ │ └── result/page.js
-│ │ ├── components/
-│ │ │ ├── InputField.js
-│ │ │ ├── SelectField.js
-│ │ │ ├── ProductCard.js
-│ │ │ ├── ComboCard.js
-│ │ │ └── MSTGraph.js
-│ │ └── lib/api.js
-│ └── package.json
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── page.js
+│   │   │   └── result/page.js
+│   │   ├── components/
+│   │   │   ├── InputField.js
+│   │   │   ├── SelectField.js
+│   │   │   ├── ProductCard.js
+│   │   │   ├── ComboCard.js
+│   │   │   └── MSTGraph.js
+│   │   └── lib/api.js
+│   └── package.json
 │
 └── README.md
 
@@ -138,14 +123,16 @@ project/
 ## 🔧 Backend Setup (Flask)
 
 ### ✅ 1. Create Virtual Environment
+
 ```
 
 python -m venv venv
-venv\Scripts\activate # Windows
+venv\Scripts\activate   # Windows
 
 ```
 
 ### ✅ 2. Install Dependencies
+
 ```
 
 pip install -r requirements.txt
@@ -153,13 +140,14 @@ pip install -r requirements.txt
 ```
 
 ### ✅ 3. Run Server
+
 ```
 
 python backend.py
 
 ```
 
-Runs at:
+Runs at:  
 👉 http://localhost:8000
 
 ---
@@ -167,6 +155,7 @@ Runs at:
 ## 💻 Frontend Setup (Next.js)
 
 ### ✅ 1. Install Dependencies
+
 ```
 
 npm install
@@ -174,13 +163,14 @@ npm install
 ```
 
 ### ✅ 2. Run Frontend
+
 ```
 
 npm run dev
 
-````
+```
 
-Runs at:
+Runs at:  
 👉 http://localhost:3000
 
 ---
@@ -188,10 +178,13 @@ Runs at:
 ## 📡 API Endpoints
 
 ### ✅ **GET /products**
+
 Fetch all products.
 
 ### ✅ **POST /search**
+
 Body:
+
 ```json
 {
   "query": "bag",
@@ -199,7 +192,7 @@ Body:
   "max_price": 2000,
   "min_rating": 4
 }
-````
+```
 
 ### ✅ **POST /recommend**
 

@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div className="max-w-md mx-auto mt-16 p-8 bg-white border border-gray-200 rounded-2xl shadow-2xl transition duration-500 ease-in-out transform hover:shadow-3xl">
       <h1 className="text-3xl font-extrabold mb-6 text-center text-gray-800 tracking-tight">
-        ✨ Product Finder
+        Product Finder
       </h1>
 
       <div className="space-y-5 mb-6 text-gray-700 ">

@@ -142,7 +142,7 @@ def search():
     data = request.json
     min_rating = data.get("min_rating")
 
-    # ✅ Force rating between 1 and 5
+    #  Force rating between 1 and 5
     if min_rating is not None:
         min_rating = max(1.0, min(5.0, float(min_rating)))
 
@@ -156,6 +156,7 @@ def search():
     return jsonify({"products": res})
 
 
+
 @app.route("/recommend", methods=["POST"])
 def recommend():
     data = request.json
@@ -164,7 +165,7 @@ def recommend():
     budget = data.get("budget")
     query = data.get("query")
 
-    # ✅ Force rating between 1 and 5
+    # Force rating between 1 and 5
     if min_rating is not None:
         min_rating = max(1.0, min(5.0, float(min_rating)))
 
@@ -181,7 +182,7 @@ def recommend():
 
 
 # -------------------------------------------------------
-# ✅ NEW: MST for *only selected knapsack products*
+# NEW: MST for *only selected knapsack products*
 # -------------------------------------------------------
 @app.route("/mst_filtered", methods=["POST"])
 def mst_filtered():
@@ -204,6 +205,9 @@ def mst_filtered():
 
     return jsonify({"mst": formatted})
 
+@app.route("/")
+def home():
+    return jsonify({"message": "Flask Backend Running Successfully ✅"})
 
 
 

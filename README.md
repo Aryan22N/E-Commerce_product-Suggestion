@@ -206,12 +206,13 @@ Returns MST similarity only for selected products.
 
 ## 👨‍💻 Team Members
 
-| Name                | Role                                      |
-| ------------------- | ----------------------------------------- |
-| **Aryan Nandanwar** | Full-stack Developer, UI/UX & Integration |
-| **Krishna Jajoo**   | Backend Logic, API Handling               |
-| **Pranav Shende**   | Data Handling, Testing & Optimization     |
-
+| Name                | 
+| ------------------- | 
+| **Aryan Nandanwar** |
+|  **Pranav Shende**  | 
+| **Krishna Jajoo**   | 
+ 
+ 
 ---
 
 ## 🤝 Contributions & Suggestions

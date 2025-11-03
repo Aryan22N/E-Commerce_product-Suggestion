@@ -25,7 +25,7 @@ Users can filter products based on:
 - Keywords
 - Category
 - Price range
-- Minimum rating
+- Minimum Rating
 
 ---
 

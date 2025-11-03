@@ -25,7 +25,7 @@ Users can filter products based on:
 - Keywords
 - Category
 - Price range
-- Minimum rating
+- Minimum Rating
 
 ---
 
@@ -217,7 +217,7 @@ Returns MST similarity only for selected products.
 
 ## 🤝 Contributions & Suggestions
 
-We are **open for recommendations, improvements, and contributions** from anyone!
+We are **open for Recommendations, Improvements, and Contributions** from anyone!
 If you have ideas to make the project better, feel free to open an issue or contribute. ✨
 
 ---
